@@ -21,7 +21,7 @@ class WeightAndAgeWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text("Weight",style: TextStyle(fontSize: 20,color: Color(0xff8B8C9E),fontWeight: FontWeight.w300),),
+                    Text(title,style: TextStyle(fontSize: 20,color: Color(0xff8B8C9E),fontWeight: FontWeight.w300),),
                     Text(weight.toString(),style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white),),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
