@@ -49,10 +49,9 @@ This structure improves maintainability and scalability.
 
 The user interface is designed using 🔗 [View Figma Design](https://www.figma.com/file/your-design-link)
 
-![UI Screenshot 1](https://github.com/yarazalat/bmi/blob/main/assets/design/Screenshot%202025-07-10%20010407.png?raw=true)
-
-![UI Screenshot 2](https://github.com/yarazalat/bmi/blob/main/assets/design/Screenshot%202025-07-10%20010426.png?raw=true)
-
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| ![UI 1](https://github.com/YaraZalat/BMI-flutter/blob/master/assets/design/Screenshot%202025-07-10%20010407.png?raw=true) | ![UI 2](https://github.com/YaraZalat/BMI-flutter/blob/master/assets/design/Screenshot%202025-07-10%20010426.png?raw=true) |
 ![BMI App UI](https://www.figma.com/design/68fRWL8RmecaUjl5dWQwPm/Untitled?node-id=18-18&t=LggZgBg5ii7uZpQI-4)
 ---
 
