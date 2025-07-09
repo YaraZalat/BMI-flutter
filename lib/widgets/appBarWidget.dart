@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
    @override
    Widget build(BuildContext context) {
      return AppBar(
+       iconTheme: IconThemeData(color: Colors.white),
        centerTitle: true,
        backgroundColor: Color(0xff24263B),
        title: Text(title,style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.w500),textAlign: TextAlign.center,),
