@@ -1,8 +1,7 @@
 
 # 🧮 BMI Calculator – Flutter App
 
-A simple, elegant, and responsive mobile application built using **Flutter** to calculate the Body Mass Index (BMI) based on user input: gender, height, weight, and age.
-
+A responsive Flutter mobile application that calculates Body Mass Index (BMI) based on user's height, weight, age, and gender. It is designed with clean architecture and a user-friendly UI.
 ---
 
 ## 📝 1. General Overview
@@ -107,9 +106,17 @@ lib/
 
 ## 🚧 Challenges Faced
 
-- **HeroTag Conflict**: Initially, using the same `heroTag` for multiple `FloatingActionButtons` caused runtime errors. Resolved by assigning unique tags.
-- **Initial IDE setup**: Android Studio didn’t detect SDK at first; fixed via manual SDK path configuration.
-- **Auto-complete not working**: IntelliSense didn't activate until restarting IDE or pressing `Ctrl + P`.
+
+-✅ Responsive Design:
+Used Expanded, Flexible, and MediaQuery to make layout responsive across screen sizes.
+
+-✅ Custom Widget Reusability:
+Divided repeated components (e.g., GenderWidget, WeightAndAgeWidget) into reusable widgets to follow DRY principle.
+
+-✅ Passing Arguments with Model:
+Instead of using a raw Map, I created a dedicated model (ArgumentsOfCalculate) to pass data between screens using pushNamed. This improves type safety and code clarity.
+
+
 
 ---
 
