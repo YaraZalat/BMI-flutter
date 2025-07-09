@@ -7,16 +7,17 @@ class GenderWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color activeColor = Color(0xff24263B);
-    Color inactiveColor = Color(0xff333244);
+    Color inactiveColor = Color(0xff24263B);
+    Color activeColor = Color(0xff333244);
     return Expanded(
       child: Padding(
-        padding: EdgeInsets.all(24),
+        padding: EdgeInsets.symmetric(vertical: 15,horizontal: 20,),
         child: GestureDetector(
           onTap:ontapGender ,
           child: Container(
             decoration: BoxDecoration(
-                color: isSelected ? activeColor : inactiveColor,                borderRadius: BorderRadius.circular(10)),
+                color: isSelected ? activeColor : inactiveColor,
+                borderRadius: BorderRadius.circular(10)),
             child:Column(
               children: [
                 Icon(selectedGender == 'Male' ? Icons.male_outlined : Icons.female_outlined,size: 96,color: Colors.white,),

@@ -1,11 +1,9 @@
 import 'package:bmi/model/argumentsOfCalculate.dart';
-import 'package:bmi/screens/resultscreen.dart';
 import 'package:bmi/widgets/appBarWidget.dart';
 import 'package:bmi/widgets/genderWidget.dart';
 import 'package:bmi/widgets/heightWidget.dart';
 import 'package:bmi/widgets/weightAndAgeWidget.dart';
 import 'package:flutter/material.dart';
-
 import '../widgets/buttomNavigationBar.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

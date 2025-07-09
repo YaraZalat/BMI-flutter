@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 class WeightAndAgeWidget extends StatelessWidget {
-  final int weight;
+  final double value;
   final String title;
   final String tag1;
   final String tag2;
   final Function()? addButton;
   final Function()? subButton;
-  const WeightAndAgeWidget({super.key, required this.weight, required this.title, this.addButton, this.subButton, required this.tag1, required this.tag2});
+  const WeightAndAgeWidget({super.key, required this.value, required this.title, this.addButton, this.subButton, required this.tag1, required this.tag2});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class WeightAndAgeWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(title,style: TextStyle(fontSize: 20,color: Color(0xff8B8C9E),fontWeight: FontWeight.w300),),
-                    Text(weight.toString(),style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white),),
+                    Text(value.round().toString(),style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white),),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -32,7 +32,7 @@ class WeightAndAgeWidget extends StatelessWidget {
                           height: 36,
                           child: FittedBox(
                             child: FloatingActionButton(
-                                heroTag:tag2 ,
+                                heroTag:tag1 ,
 
                                 onPressed: addButton,
                                 backgroundColor: Color(0xff8B8C9E),
